@@ -1,0 +1,49 @@
+.container {
+  margin: 10%;
+  display: flex;
+  justify-content: space-between;
+
+  .buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    button {
+      width: fit-content;
+    }
+
+    .certList {
+      margin-top: 20px;
+
+      .listButton {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+
+  .windowWrapper {
+
+    .dragAndDrop {
+      width: 400px;
+      height: 200px;
+      border: 1px dotted;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .info {
+      width: 400px;
+      height: 200px;
+      border: 1px solid;
+
+      .infoText {
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
+}
